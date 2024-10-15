@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <div>
             {/* <Herosection /> */}
-            <div className="bg-gray-50 h-1/2 w-full flex md:flex-row flex-col justify-around item-start p-16" >
+            <div className="bg-gray-50 h-1/2 w-full flex md:flex-row flex-col justify-around item-start py-16" >
                 <div className='p-5'>
                     <ul>
                         <p className='text-gray-800 font-bold text-3xl pb-6'> <span className='text-blue-600'>Finsensor </span>Limited</p>
@@ -38,17 +38,13 @@ const Footer = () => {
                 <div className='p-5'>
                     <ul>
                         <p className='text-gray-800 font-bold text-2xl pb-4'>
-                            Compeny
+                        Company
                         </p>
                         <li className='text-gray-600 pb-2 font-semibold hover:text-blue-600 cursor-pointer'><Link href={"/"}>Home</Link></li>
                         <li className='text-gray-600 pb-2 font-semibold hover:text-blue-600 cursor-pointer'><Link href={"/Aboutus"}>About</Link></li>
                         <li className='text-gray-600 pb-2 font-semibold hover:text-blue-600 cursor-pointer'><Link href={"/Contectus"}>Contect us</Link></li>
                         <li className='text-gray-600 pb-2 font-semibold hover:text-blue-600 cursor-pointer'>Products</li>
-
-
-
                     </ul>
-
                 </div>
                 <div className='p-5'>
                     <ul>

@@ -6,6 +6,7 @@ import Navbar from "@/customComponets/Navbar/page";
 import PricingPage from "@/customComponets/PricingPage/page";
 import Products from "@/customComponets/Products/page";
 import SliderSection from "@/customComponets/slidersection/page";
+import Whowe from "@/customComponets/WhoWeAre/Whowe";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 export default function Home() {
@@ -21,6 +22,12 @@ export default function Home() {
       </div>
       <div className="h-[calc(100vh_-_4rem)]">
         <SliderSection />
+        <div id="leaders_pagejs" className="flex items-center mst-10 mt-4">
+          <div className="border-t border-4 border-gray-400 flex-grow"></div>
+          <div className="px-3 text-gray-800 font-bold text-2xl">Who We Are</div>
+          <div className="border-t border-4 border-gray-400 flex-grow"></div>
+        </div>
+        <Whowe />
         <div className="flex items-center mb-5">
           <div className="border-t border-4 border-gray-400 flex-grow"></div>
           <div className="px-3 text-gray-800 font-bold text-2xl">Products</div>
@@ -34,7 +41,7 @@ export default function Home() {
           <div className="border-t border-4 border-gray-400 flex-grow"></div>
         </div>
         <MapPage />
-        <div id="leaders_pagejs" className="flex items-center mst-10">
+        <div id="leaders_pagejs" className="flex items-center mst-10 mt-4">
           <div className="border-t border-4 border-gray-400 flex-grow"></div>
           <div className="px-3 text-gray-800 font-bold text-2xl">Team Leaders</div>
           <div className="border-t border-4 border-gray-400 flex-grow"></div>
@@ -43,6 +50,7 @@ export default function Home() {
         <Leaders />
         {/* <PricingPage /> */}
         {/*  */}
+
         <Footer />
       </div>
     </main>
