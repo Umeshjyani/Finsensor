@@ -19,7 +19,7 @@ const ProductGrid = ({ products }: any) => {
                 {products.map((product: any, index: any) => (
                     <div
                         key={index}
-                        className="bg-white relative h-120 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden mb-8"
+                        className="bg-white relative h-120 shadow-lg rounded-xl duration-500 hover:scale-105 hover:shadow-xl overflow-hidden mb-8"
                     >
                         {product.isComingSoon && (
                             <span className="absolute top-0 left-0 bg-red-500 text-white py-1 px-2 uppercase text-xs">
@@ -38,7 +38,11 @@ const ProductGrid = ({ products }: any) => {
                                 </p>
                                 <p className="text-sm text-gray-700 mb-8">{product.description}</p>
                                 <div className="flex items-center justify-center mb-8">
-                                    <button className="bg-blue-500 text-white px-6 py-2 rounded-sm transition-all duration-300 transform hover:scale-105" onClick={() => handleClick(product.id)}>
+                                    <button
+                                        className="bg-blue-500 text-white px-6 py-2 rounded-sm transition-all duration-300 transform hover:scale-105"
+                                        onClick={() => handleClick(product.id)}
+                                        disabled={product.isComingSoon}
+                                    >
                                         View More
                                     </button>
                                 </div>

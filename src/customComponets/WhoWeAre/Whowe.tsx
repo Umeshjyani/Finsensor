@@ -13,7 +13,7 @@ const Whowe = () => {
                         At FinSensor, we are a team of dedicated chartered accountants, engineers and technicians committed to revolutionizing the finance and reporting landscape. By leveraging cutting-edge automated solutions, we empower businesses to streamline their financial processes, enhance accuracy, and boost productivity. Our expertise ensures that clients can focus on strategic decision-making while we handle the complexities of financial reporting. With a blend of professionalism and innovation, we strive to deliver exceptional value and drive success for our clients in an ever-evolving financial environment.
                         </p>
                     </div>
-                    <div className="mt-12 md:mt-0" data-aos="fade-left" data-aos-duration="3000">
+                    <div className="mt-12 md:mt-0" data-aos="fade-right" data-aos-duration="3000">
                         <Image src={overStory} alt="About Us Image" className="object-cover rounded-lg" />
                     </div>
                 </div>

@@ -17,10 +17,10 @@ import {
 
 const components: { title: string; description: string, href: string }[] = [
     {
-        title: "Vendor Reconciliation Tool",
+        title: "FinSoEasy360",
         description:
             "Identify and resolve discrepancies with detailed reasons for mismatches, ensuring your financial records reflect the true financial position",
-        href: "1",
+        href: "FinSoEasy360",
     },
     {
         title: "Fixed Asset Management Tool",
@@ -29,21 +29,27 @@ const components: { title: string; description: string, href: string }[] = [
         href: "2",
     },
     {
-        title: "Lease Accounting Solution",
+        title: "Vendor Reconciliation Tool",
         description:
-            "From calculation to recognition, our solution covers the entire lease lifecycle, ensuring compliance with accounting standards",
-        href: "3",
+            "Identify and resolve discrepancies with detailed reasons for mismatches, ensuring your financial records reflect the true financial position",
+        href: "1",
     },
-    {
-        title: "Strike Off Companies",
-        description: "Stay compliant by checking the status of vendors and debtors, ensuring they are not strike-off from the Registrar of Companies (ROC)",
-        href: "4",
-    },
-    {
-        title: 'Automated Financial Statements and Notes to Accounts',
-        description: "Ensure accurate and compliant financial statements in accordance with Schedule 3 of the Indian Companies Act 2013.Save valuable time with automated generation reducing manual efforts and minimizing errors",
-        href: "5",
-    }
+    // {
+    //     title: "Lease Accounting Solution",
+    //     description:
+    //         "From calculation to recognition, our solution covers the entire lease lifecycle, ensuring compliance with accounting standards",
+    //     href: "3",
+    // },
+    // {
+    //     title: "Strike Off Companies",
+    //     description: "Stay compliant by checking the status of vendors and debtors, ensuring they are not strike-off from the Registrar of Companies (ROC)",
+    //     href: "4",
+    // },
+    // {
+    //     title: 'Automated Financial Statements and Notes to Accounts',
+    //     description: "Ensure accurate and compliant financial statements in accordance with Schedule 3 of the Indian Companies Act 2013.Save valuable time with automated generation reducing manual efforts and minimizing errors",
+    //     href: "5",
+    // }
 ]
 /*
 {
@@ -117,16 +123,16 @@ export function NavigationBar() {
                     </Link>
                 </NavigationMenuItem> */}
                 <NavigationMenuItem>
-                    <Link href="Aboutus" legacyBehavior passHref>
+                    <Link href="/Aboutus" legacyBehavior passHref>
                         <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), "")}>
                             About us
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <Link href="Contectus" legacyBehavior passHref>
+                    <Link href="/Contactus" legacyBehavior passHref>
                         <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), "")}>
-                            Contect us
+                            Contact us
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>

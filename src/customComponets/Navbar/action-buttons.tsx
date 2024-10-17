@@ -42,14 +42,11 @@ const ActionButtons = () => {
                     </SheetContent>
                 </Sheet>
             </div>
-
             <div className='hidden md:flex md:space-x-4'>
-                <Button className="text-md rounded text-white bg-blue-500" variant="outline">Book a demo</Button>
+                <Link href={"/Contactus"}>
+                    <Button className="text-md rounded text-white bg-blue-500" variant="outline">Book a demo</Button>
+                </Link>
             </div>
-
-
-
-
         </div >
     )
 }
