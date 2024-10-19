@@ -103,6 +103,7 @@ const ProductHeroSection = () => {
                         <Image src={ManulEntruy} alt="About Us Image" className='border-1 rounded-sm shadow-custom' />
                     </div>
                 </div>
+                
                 <div className="sm:w-1/2" data-aos="fade-right" data-aos-duration="3000">
                     <div className="text">
                         <h2 className="my-4 font-bold text-3xl  sm:text-4xl ">
