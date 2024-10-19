@@ -49,25 +49,23 @@ const components: { title: string; description: string, href: string }[] = [
     //     title: 'Automated Financial Statements and Notes to Accounts',
     //     description: "Ensure accurate and compliant financial statements in accordance with Schedule 3 of the Indian Companies Act 2013.Save valuable time with automated generation reducing manual efforts and minimizing errors",
     //     href: "5",
+    // },
+    // {
+    //     id: 5,
+    //     productName: 'Automated Financial Statements and Notes to Accounts',
+    //     logo: product4.src,
+    //     isComingSoon: false,
+    //     description: `Ensure accurate and compliant financial statements in accordance with Schedule 3 of the Indian Companies Act 2013.
+    //     Save valuable time with automated generation, reducing manual efforts and minimizing errors
+    //     `,
     // }
 ]
-/*
-{
-            id: 5,
-            productName: 'Automated Financial Statements and Notes to Accounts',
-            logo: product4.src,
-            isComingSoon: false,
-            description: `Ensure accurate and compliant financial statements in accordance with Schedule 3 of the Indian Companies Act 2013.
-            Save valuable time with automated generation, reducing manual efforts and minimizing errors
-            `,
-        },
-*/
+
 
 
 export function NavigationBar() {
     const handleClick = () => {
         const secondElement = document.getElementById('leaders_pagejs');
-
         if (secondElement) {
             window.scrollTo({
                 top: secondElement.offsetTop,
@@ -81,7 +79,7 @@ export function NavigationBar() {
                 <NavigationMenuItem>
                     <Link href="/" legacyBehavior passHref>
                         <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), "")}>
-                            Home
+                                Home
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>

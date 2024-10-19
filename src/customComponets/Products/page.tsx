@@ -8,7 +8,7 @@ import product4 from "@/../public/LOGO-2.svg"
 const Products = () => {
     const dummyProducts = [
         {
-            id: 1,
+            id: "FinSoEasy360",
             productName: 'FinSoEasy360',
             logo: product1.src,
             isComingSoon: false,

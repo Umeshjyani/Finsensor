@@ -31,7 +31,11 @@ export function Leaders() {
             In addition to above, Amit is also faculty for IFRS/Ind AS course 
             conducted by Institute of Chartered Accountants of India, Delhi 
             University and large consulting firms.`,
-            MediaList: ''
+            socials: {
+                twitter: "https://twitter.com/AmitGarg",
+                linkedin: "https://www.linkedin.com/in/AmitGarg",
+                facebook: "https://www.facebook.com/AmitGarg"
+            }
         },
         {
             name: "Saurabh Aggarwal",
@@ -57,7 +61,11 @@ export function Leaders() {
             Saurabh has also handled capital market transaction of JK 
             Cements Limited. 
             `,
-            MediaList: ''
+            socials: {
+                twitter: "https://twitter.com/AmitGarg",
+                linkedin: "https://www.linkedin.com/in/AmitGarg",
+                facebook: "https://www.facebook.com/AmitGarg"
+            }
         },
         {
             name: "Prashant Jha",
@@ -84,7 +92,11 @@ export function Leaders() {
             which involved multi disciplinary teams and worked against tight  
             deadlines.
             `,
-            MediaList: ''
+            socials: {
+                twitter: "https://twitter.com/AmitGarg",
+                linkedin: "https://www.linkedin.com/in/AmitGarg",
+                facebook: "https://www.facebook.com/AmitGarg"
+            }
         },
         {
             name: "CA Gaurav Malik",
@@ -92,7 +104,11 @@ export function Leaders() {
             image: Gaurav,
             description: `8+ years of experience in Financial Planning and Analysis, Data Analytics with organizations like EY, Vedanta Limited, Kotak Mahindra Bank Limited & other global MNCs
             Handled Budgeting , Margin/Profitability Analysis, Financial modelling , Credit Rating , Due Diligence, Internal Management Reporting , External reporting like investor presentation, press release and Annual reports.`,
-            MediaList: ''
+            socials: {
+                twitter: "https://twitter.com/AmitGarg",
+                linkedin: "https://www.linkedin.com/in/AmitGarg",
+                facebook: "https://www.facebook.com/AmitGarg"
+            }
         },
         {
             name: "CA Abhinav Aggarwal",
@@ -100,11 +116,14 @@ export function Leaders() {
             image: Abhinav,
             description: `8+ years of experience in Financial Planning and Analysis, Business transformation & Tool Implementation with organizations like Infosys Limited, Sumitomo & other global MNCs 
             Handled Finance Transformation Projects, ERP & FP&A Tool Implementations, Process Improvement & Business Analytics projects.`,
-            MediaList: ''
+            socials: {
+                twitter: "https://twitter.com/AmitGarg",
+                linkedin: "https://www.linkedin.com/in/AmitGarg",
+                facebook: "https://www.facebook.com/AmitGarg"
+            }
         },
 
     ]
-
     return (
         <LeadersData user={user} />
     )

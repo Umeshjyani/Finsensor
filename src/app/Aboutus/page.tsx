@@ -13,7 +13,7 @@ const page = () => {
         <div className='max-w-full'>
             <Mainsection />
             <Overstory />
-            <OurValues />
+            {/* <OurValues /> */}
             <Vision />
             <Mission />
             <WhyUs />

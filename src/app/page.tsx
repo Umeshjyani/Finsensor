@@ -17,10 +17,9 @@ export default function Home() {
 
   return (
     <main>
-      <div className="sticky  top-0 z-50">
         <Navbar />
-      </div>
-      <div className="h-[calc(100vh_-_4rem)]">
+      {/* className="h-[calc(100vh_-_4rem)]" */}
+      <div >
         <SliderSection />
         <div id="leaders_pagejs" className="flex items-center mst-10 mt-4">
           <div className="border-t border-4 border-gray-400 flex-grow"></div>
@@ -35,12 +34,12 @@ export default function Home() {
         </div>
 
         <Products />
-        <div className="flex items-center mb-5">
+        {/* <div className="flex items-center mb-5">
           <div className="border-t border-4 border-gray-400 flex-grow"></div>
           <div className="px-3 text-gray-800 font-bold text-2xl">Over Location</div>
           <div className="border-t border-4 border-gray-400 flex-grow"></div>
         </div>
-        <MapPage />
+        <MapPage /> */}
         <div id="leaders_pagejs" className="flex items-center mst-10 mt-4">
           <div className="border-t border-4 border-gray-400 flex-grow"></div>
           <div className="px-3 text-gray-800 font-bold text-2xl">Team Leaders</div>

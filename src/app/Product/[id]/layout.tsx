@@ -8,19 +8,14 @@ export const metadata: Metadata = {
     description: "Finsensor AI Private Limited",
 };
 
-export default function RootLayout({
-    children,
-}: Readonly<{
+export default function RootLayout({ children, }: Readonly<{
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
-            <body className={inter.className}>
-                <Navbar />
-                {children}
-                <Footer />
-            </body>
-        </html>
-
+        <main>
+            <Navbar />
+            {children}
+            <Footer />
+        </main>
     );
 }
