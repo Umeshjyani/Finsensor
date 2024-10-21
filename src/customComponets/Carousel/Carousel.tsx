@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import manul from "@/../public/ManulEntry.png";
 import Notes from "@/../public/NotesInfo.png";
@@ -23,6 +23,10 @@ const Carousel = () => {
     const goToSlide = (index: any) => {
         setCurrentSlide(index);
     };
+    useEffect(() => {
+        const interval = setInterval(nextSlide, 3000); // Change slide every 1 second
+        return () => clearInterval(interval); // Cleanup interval on unmount
+    }, []);
 
     return (
         <div className="relative w-full h-full grid items-center" data-carousel="slide">
