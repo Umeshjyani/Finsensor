@@ -3,7 +3,8 @@ import Image from 'next/image'
 import HeroImage from "@/../../public/313.jpg"
 import ManulEntruy from "@/../../public/ManulEntry.png"
 import NotesInof from "@/../../public/NotesInfo.png"
-import FaqFinSoEasy from './FaqFinSoEasy'
+import Faq from '../../../customComponets/Faq/Faq'
+import Carousel from '@/customComponets/Carousel/Carousel'
 
 
 const ProductHeroSection = () => {
@@ -99,11 +100,78 @@ const ProductHeroSection = () => {
             </div>
             <div className="sm:flex items-center max-w-screen-xl justify-between bg-[#f8faff] p-5">
                 <div className="sm:w-1/2 items-center justify-center flex w-full z-10">
-                    <div className="image object-center text-center max-w-[550px]">
-                        <Image src={ManulEntruy} alt="About Us Image" className='border-1 rounded-sm shadow-custom' />
+                    {/* <div className="image object-center text-center max-w-[550px]"> */}
+                    {/* <Image src={ManulEntruy} alt="About Us Image" className='border-1 rounded-sm shadow-custom' /> */}
+                    <Carousel />
+
+                    {/* </div> */}
+                </div>
+
+                <div className="sm:w-1/2" data-aos="fade-right" data-aos-duration="3000">
+                    <div className="text">
+                        <h2 className="my-4 font-bold text-3xl  sm:text-4xl ">
+                            <span className="text-[#2323CE] text-[30px]">
+                                Dashboard and Reports
+                            </span>
+                        </h2>
+                        <ul className="list-disc list-outside space-y-2 text-[#6a6a92] text-lg [text-16px] px-2 break-words hyphens-auto">
+                            <li>
+                                FinSoEasy 360 allows for manual entry posting and sophisticated categorization of these entries. By this, the software provides a robust mechanism for tracking any changes in the trial balance.
+                            </li>
+                            <li>
+                                This not only makes the audit process more efficient but also helps in maintaining transparency and accountability in financial reporting.
+                            </li>
+                            <li>
+                                Management can oversee the manual entries posted in different units and subsidiaries from a single platform, improving control and oversight.
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                
+            </div>
+            <div className="sm:flex items-center max-w-screen-xl justify-between p-5">
+                <div className="sm:w-1/2" >
+                    <div className="text">
+                        <h2 className="my-4 font-bold text-3xl  sm:text-4xl ">
+                            <span className="text-[#2323CE] text-[30px]">
+                                Chat With Units & Sync
+                            </span>
+                        </h2>
+                        {/* <ul className="list-disc list-inside space-y-2 text-[#6a6a92]">
+                            <li className="text-lg text-[16px]">FinSoEasy 360 allow user to flow notes information such as Related Party, Contingent Liability, Ageing etc into Financial Statements through software interface. This feature  facilitates the easy integration and management of detailed notes-related information.
+                            </li>
+                            <li className="text-lg text-[16px]">Multiple users can add or edit notes information simultaneously for respective units / subsidiaries , enabling efficient collaboration among team members during the financial reporting process.
+                            </li>
+                            <li className="text-lg text-[16px]">Notes information of multiple units / subsidiaries can be consolidated on real time basis which help user in integration of the data such as ageing, Related party information etc with no addition effort.
+                            </li>
+                        </ul> */}
+                        <ul className="list-disc list-outside space-y-2 text-[#6a6a92] text-lg [text-16px] px-2 ">
+                            <li className="break-words hyphens-auto">
+                                FinSoEasy 360 allows users to flow notes information such as Related Party, Contingent Liability, Ageing, etc., into Financial Statements through the software interface. This feature facilitates the easy integration and management of detailed notes-related information.
+                            </li>
+                            <li className="break-words hyphens-auto">
+                                Multiple users can add or edit notes information simultaneously for respective units/subsidiaries, enabling efficient collaboration among team members during the financial reporting process.
+                            </li>
+                            <li className="break-words hyphens-auto">
+                                Notes information of multiple units/subsidiaries can be consolidated on a real-time basis, helping users integrate the data such as ageing, Related Party information, etc., with no additional effort.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="sm:w-1/2  sm:p-0 py-2 items-center justify-center flex w-full z-10">
+                    <div className="image object-center text-center max-w-[550px]">
+                        <Image src={NotesInof} alt="About Us Image" className='border-1 rounded-sm shadow-custom' />
+                    </div>
+                </div>
+            </div>
+            <div className="sm:flex items-center max-w-screen-xl justify-between bg-[#f8faff] p-5">
+                <div className="sm:w-1/2 items-center justify-center flex w-full z-10">
+                    {/* <div className="image object-center text-center max-w-[550px]"> */}
+                    {/* <Image src={ManulEntruy} alt="About Us Image" className='border-1 rounded-sm shadow-custom' /> */}
+                    <Carousel />
+
+                    {/* </div> */}
+                </div>
+
                 <div className="sm:w-1/2" data-aos="fade-right" data-aos-duration="3000">
                     <div className="text">
                         <h2 className="my-4 font-bold text-3xl  sm:text-4xl ">
@@ -111,14 +179,26 @@ const ProductHeroSection = () => {
                                 Manual Entry Enabler
                             </span>
                         </h2>
-                        <ul className="list-disc list-inside space-y-2 text-[#6a6a92]">
+                        {/* <ul className="list-disc list-inside space-y-2 text-[#6a6a92]">
                             <li className="text-lg text-[16px]">FinSoEasy 360 allow for manual entry posting and sophisticated categorization of these entries. By this the software provides a robust mechanism for tracking any changes in the trial balance.
                             </li>
                             <li className="text-lg text-[16px]">This not only makes the audit process more efficient but also helps in maintaining transparency and accountability in financial reporting.
                             </li>
                             <li className="text-lg text-[16px]">Management can oversee the manual entries posted in different units and subsidiaries from a single platform, improving control and oversight.
                             </li>
+                        </ul> */}
+                        <ul className="list-disc list-outside space-y-2 text-[#6a6a92] text-lg text-[16px] px-2 break-words hyphens-auto">
+                            <li>
+                                FinSoEasy 360 allows for manual entry posting and sophisticated categorization of these entries. By this, the software provides a robust mechanism for tracking any changes in the trial balance.
+                            </li>
+                            <li>
+                                This not only makes the audit process more efficient but also helps in maintaining transparency and accountability in financial reporting.
+                            </li>
+                            <li>
+                                Management can oversee the manual entries posted in different units and subsidiaries from a single platform, improving control and oversight.
+                            </li>
                         </ul>
+
                     </div>
                 </div>
             </div>
@@ -130,12 +210,15 @@ const ProductHeroSection = () => {
                                 Notes and Footnotes Info Management
                             </span>
                         </h2>
-                        <ul className="list-disc list-inside space-y-2 text-[#6a6a92]">
-                            <li className="text-lg text-[16px]">FinSoEasy 360 allow user to flow notes information such as Related Party, Contingent Liability, Ageing etc into Financial Statements through software interface. This feature  facilitates the easy integration and management of detailed notes-related information.
+                        <ul className="list-disc list-outside space-y-2 text-[#6a6a92] text-lg [text-16px] px-2 ">
+                            <li className="break-words hyphens-auto">
+                                FinSoEasy 360 allows users to flow notes information such as Related Party, Contingent Liability, Ageing, etc., into Financial Statements through the software interface. This feature facilitates the easy integration and management of detailed notes-related information.
                             </li>
-                            <li className="text-lg text-[16px]">Multiple users can add or edit notes information simultaneously for respective units / subsidiaries , enabling efficient collaboration among team members during the financial reporting process.
+                            <li className="break-words hyphens-auto">
+                                Multiple users can add or edit notes information simultaneously for respective units/subsidiaries, enabling efficient collaboration among team members during the financial reporting process.
                             </li>
-                            <li className="text-lg text-[16px]">Notes information of multiple units / subsidiaries can be consolidated on real time basis which help user in integration of the data such as ageing, Related party information etc with no addition effort.
+                            <li className="break-words hyphens-auto">
+                                Notes information of multiple units/subsidiaries can be consolidated on a real-time basis, helping users integrate the data such as ageing, Related Party information, etc., with no additional effort.
                             </li>
                         </ul>
                     </div>
@@ -146,7 +229,7 @@ const ProductHeroSection = () => {
                     </div>
                 </div>
             </div>
-            <FaqFinSoEasy/>
+            <Faq ShowFaqName={"FaqFinsSoEasy360"} />
         </div>
     )
 }

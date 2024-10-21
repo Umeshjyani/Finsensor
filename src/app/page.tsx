@@ -1,9 +1,7 @@
 'use client'
 import Footer from "@/customComponets/Footer/page";
-import { Leaders } from "@/customComponets/Leaders/page";
-import MapPage from "@/customComponets/Map/page";
+import  Leaders  from "@/customComponets/Leaders/Leaders";
 import Navbar from "@/customComponets/Navbar/page";
-import PricingPage from "@/customComponets/PricingPage/page";
 import Products from "@/customComponets/Products/page";
 import SliderSection from "@/customComponets/slidersection/page";
 import Whowe from "@/customComponets/WhoWeAre/Whowe";
@@ -17,7 +15,7 @@ export default function Home() {
 
   return (
     <main>
-        <Navbar />
+      <Navbar />
       {/* className="h-[calc(100vh_-_4rem)]" */}
       <div >
         <SliderSection />
@@ -32,7 +30,6 @@ export default function Home() {
           <div className="px-3 text-gray-800 font-bold text-2xl">Products</div>
           <div className="border-t border-4 border-gray-400 flex-grow"></div>
         </div>
-
         <Products />
         {/* <div className="flex items-center mb-5">
           <div className="border-t border-4 border-gray-400 flex-grow"></div>
@@ -45,11 +42,8 @@ export default function Home() {
           <div className="px-3 text-gray-800 font-bold text-2xl">Team Leaders</div>
           <div className="border-t border-4 border-gray-400 flex-grow"></div>
         </div>
-
         <Leaders />
         {/* <PricingPage /> */}
-        {/*  */}
-
         <Footer />
       </div>
     </main>
