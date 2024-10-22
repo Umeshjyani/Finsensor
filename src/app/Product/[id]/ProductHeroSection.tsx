@@ -102,8 +102,7 @@ const ProductHeroSection = () => {
                 <div className="sm:w-1/2 items-center justify-center flex w-full z-10">
                     {/* <div className="image object-center text-center max-w-[550px]"> */}
                     {/* <Image src={ManulEntruy} alt="About Us Image" className='border-1 rounded-sm shadow-custom' /> */}
-                    <Carousel />
-
+                    <Carousel slidename="Dashboard&Report" />
                     {/* </div> */}
                 </div>
 
@@ -158,18 +157,17 @@ const ProductHeroSection = () => {
                     </div>
                 </div>
                 <div className="sm:w-1/2  sm:p-0 py-2 items-center justify-center flex w-full z-10">
-                    <div className="image object-center text-center max-w-[550px]">
+                    {/* <div className="image object-center text-center max-w-[550px]">
                         <Image src={NotesInof} alt="About Us Image" className='border-1 rounded-sm shadow-custom' />
-                    </div>
+                    </div> */}
+                    <Carousel slidename="Unti&Sync" />
                 </div>
             </div>
             <div className="sm:flex items-center max-w-screen-xl justify-between bg-[#f8faff] p-5">
                 <div className="sm:w-1/2 items-center justify-center flex w-full z-10">
-                    {/* <div className="image object-center text-center max-w-[550px]"> */}
-                    {/* <Image src={ManulEntruy} alt="About Us Image" className='border-1 rounded-sm shadow-custom' /> */}
-                    <Carousel />
-
-                    {/* </div> */}
+                    <div className="image object-center text-center max-w-[550px]">
+                        <Image src={ManulEntruy} alt="About Us Image" className='border-1 rounded-sm shadow-custom' />
+                    </div>
                 </div>
 
                 <div className="sm:w-1/2" data-aos="fade-right" data-aos-duration="3000">
@@ -224,9 +222,10 @@ const ProductHeroSection = () => {
                     </div>
                 </div>
                 <div className="sm:w-1/2  sm:p-0 py-2 items-center justify-center flex w-full z-10">
-                    <div className="image object-center text-center max-w-[550px]">
+                    {/* <div className="image object-center text-center max-w-[550px]">
                         <Image src={NotesInof} alt="About Us Image" className='border-1 rounded-sm shadow-custom' />
-                    </div>
+                    </div> */}
+                    <Carousel slidename="Notes" />
                 </div>
             </div>
             <Faq ShowFaqName={"FaqFinsSoEasy360"} />
