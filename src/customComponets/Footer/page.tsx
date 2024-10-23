@@ -9,10 +9,14 @@ const Footer = () => {
     return (
         <div>
             {/* <Herosection /> */}
-            <div className="bg-gray-50 h-1/2 w-full flex md:flex-row flex-col justify-around item-start py-16" >
+            <div className="bg-gray-50 h-1/2 w-full flex md:flex-row flex-col justify-around item-start py-12" >
                 <div className='p-5'>
                     <ul>
-                        <p className='text-gray-800 font-bold text-3xl pb-6'> <span className='text-blue-600'>Finsensor </span>Limited</p>
+                        {/* <p className='text-gray-800 font-bold text-3xl pb-6'> <span className='text-blue-600'>Finsensor </span>Limited</p> */}
+                        <div className='flex items-center pb-6'>
+                            <span className="!font-extrabold text-[#e97944] text-[32px]">FINSENSOR</span>
+                            <span className="!font-extrabold text-[#0582fd] text-[32px]">.AI</span>
+                        </div>
                         <div className='flex gap-6 pb-5 '>
                             {/* section for Icones */}
                             <FaInstagram className='text-2xl cursor-pointer hover:text-yellow-600' />
@@ -36,7 +40,7 @@ const Footer = () => {
                 <div className='p-5'>
                     <ul>
                         <p className='text-gray-800 font-bold text-2xl pb-4'>
-                        Company
+                            Company
                         </p>
                         <li className='text-gray-600 pb-2 font-semibold hover:text-blue-600 cursor-pointer'><Link href={"/"}>Home</Link></li>
                         <li className='text-gray-600 pb-2 font-semibold hover:text-blue-600 cursor-pointer'><Link href={"/Aboutus"}>About</Link></li>

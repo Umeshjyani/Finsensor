@@ -101,7 +101,7 @@ const user = [
         }
     },
     {
-        name: "CA Gaurav Malik",
+        name: "Gaurav Malik",
         designation: "Technology Lead",
         image: Gaurav,
         description: `8+ years of experience in Financial Planning and Analysis, Data Analytics with organizations like EY, Vedanta Limited, Kotak Mahindra Bank Limited & other global MNCs
@@ -113,7 +113,7 @@ const user = [
         }
     },
     {
-        name: "CA Abhinav Aggarwal",
+        name: "Abhinav Aggarwal",
         designation: "Technology Lead",
         image: Abhinav,
         description: `8+ years of experience in Financial Planning and Analysis, Business transformation & Tool Implementation with organizations like Infosys Limited, Sumitomo & other global MNCs 
@@ -140,7 +140,7 @@ const Leaders = () => {
                 <CarouselContent>
                     {user.map((ele: any, index: number) => (
                         <CarouselItem key={index} className="w-full flex justify-center items-center">
-                            <div className="bg-white dark:bg-gray-800 p-2 my-2 mx-8  rounded-lg text-center">
+                            <div className="bg-white dark:bg-gray-800 p-5 sm:p-10 my-2 mx-8  rounded-lg text-center">
                                 {/* Profile Image */}
                                 <Image
                                     src={ele?.image || {}}

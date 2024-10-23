@@ -52,7 +52,7 @@ const FaqFinSoEasy = ({ ShowFaqName }: any) => {
     };
 
     return (
-        <div id="accordion-flush" className="m-5">
+        <div id="accordion-flush" className="mx-5">
             <div className="text-[#2323CE] text-[30px] font-bold mb-2">
                 Frequently Asked Questions
             </div>

@@ -9,15 +9,8 @@ import report3 from "@/../../public/Report3.png"
 import report4 from "@/../../public/Report4.png"
 import chat1 from "@/../../public/Chat1.png"
 import sync1 from "@/../../public/Sync1.png"
-import Notes0 from "@/../public/NotesInfo.png";
 import Notes1 from "@/../public/Notes1.png";
 import Notes2 from "@/../public/Notes2.png";
-import Notes3 from "@/../public/Notes3.png";
-
-
-
-
-
 
 const DashboardAndReport = [
   // dashboard1,
@@ -32,8 +25,6 @@ const Unitandsync = [
   sync1,
 ]
 const Notes = [
-  // Notes0,
-  Notes3,
   Notes1,
   Notes2,
 ]

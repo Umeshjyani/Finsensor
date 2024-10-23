@@ -1,30 +1,30 @@
 import React from 'react'
 import ProductGrid from './ProductCard'
-import product1 from "@/../public/LOGO-2.svg"
-import product2 from "@/../public/LOGO03.svg"
-import product3 from "@/../public/LOGO-2.svg"
+import product1 from "@/../public/FinSoEasy Logo.png"
+import product2 from "@/../public/Fixed Asset.png"
+import product3 from "@/../public/Vendor Reconcilation.png"
 import product4 from "@/../public/LOGO-2.svg"
 
 const Products = () => {
-    const dummyProducts = [
+    const dummyProducts = [ 
         {
             id: "FinSoEasy360",
             productName: 'FinSoEasy360',
             logo: product1.src,
             isComingSoon: false,
-            description: 'Identify and resolve discrepancies with detailed reasons for mismatches, ensuring your financial records reflect the true financial position Stay on top of your financial reconciliation with instant, automated reports',
+            description: 'A powerful tool for seamless financial reconciliation and reporting. Automate variance detection, resolve discrepancies, and generate Schedule III-compliant statements with real-time insights and user-friendly dashboards.',
         },
         {
             id: "FamSoEasy360",
             productName: 'FamSoEasy360',
             logo: product2.src,
             isComingSoon: true,
-            description: 'Effortlessly manage physical asset verification, ensuring your Fixed Assets Schedule complies with Schedule 3 of the Indian Companies Act 2013',
+            description: 'Effortlessly manage and verify physical assets, ensuring compliance with Schedule III of the Indian Companies Act 2013. Streamline your Fixed Assets Schedule with accurate tracking and reporting, ensuring alignment with regulatory requirements.',
         },
         {
             id: "ReconSoEasy360",
             productName: "ReconSoEasy360",
-            logo: product1.src,
+            logo: product3.src,
             isComingSoon: true,
             description: 'Identify and resolve discrepancies with detailed reasons for mismatches, ensuring your financial records reflect the true financial position Stay on top of your financial reconciliation with instant, automated reports',
         },

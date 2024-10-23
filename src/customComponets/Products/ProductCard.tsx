@@ -2,6 +2,7 @@
 import React from 'react';
 
 import { useRouter } from 'next/navigation'
+import { Button } from '@/components/ui/button';
 const ProductGrid = ({ products }: any) => {
 
     const router = useRouter();
@@ -30,7 +31,7 @@ const ProductGrid = ({ products }: any) => {
                             <img
                                 src={product.logo}
                                 alt="Product Logo"
-                                className="h-32 w-32 mx-auto mt-3 mb-3 object-cover max-w-20 max-h-20"
+                                className="h-32 w-32 mx-auto mt-3 mb-3 object-cover max-w-20 max-h-20 rounded-full"
                             />
                             <div className="px-4 py-3 w-full flex-1">
                                 <p className="text-lg font-bold text-blue-500 hover:text-blue-700 mb-4">
@@ -38,13 +39,21 @@ const ProductGrid = ({ products }: any) => {
                                 </p>
                                 <p className="text-sm text-gray-700 mb-8">{product.description}</p>
                                 <div className="flex items-center justify-center mb-8">
-                                    <button
-                                        className="bg-blue-500 text-white px-6 py-2 rounded-sm transition-all duration-300 transform hover:scale-105"
+                                    {/* <button
+                                        className={`${!product.isComingSoon ? "bg-blue-500" : "bg-gray-300"} text-white px-6 py-2 rounded-sm transition-all duration-300 transform hover:scale-105`}
                                         onClick={() => handleClick(product.id)}
                                         disabled={product.isComingSoon}
                                     >
                                         View More
-                                    </button>
+                                    </button> */}
+                                    <Button
+                                        className="bg-blue-500 text-white px-6 py-2 rounded-sm transition-all duration-300 transform hover:scale-105 hover:bg-blue-500 hover:text-white "
+                                        variant="outline"
+                                        disabled={product.isComingSoon}
+                                    >
+                                        View More
+                                    </Button>
+
                                 </div>
                             </div>
                         </div>

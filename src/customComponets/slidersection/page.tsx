@@ -19,11 +19,12 @@ const SliderSection = () => {
                         Finsensor is a pioneering company founded by a group of accomplished Chartered Accountants dedicated to revolutionizing the Fintech landscape. We combine financial expertise with technological innovation to deliver cutting-edge solutions in the ever-evolving financial sector.
                     </p>
                     <div className="mt-4">
-                        {/* <Button variant={"outline"} className='px-5 py-3 text-lg tracking-wider text-white bg-blue-500 rounded-lg md:px-8 hover:bg-blue-600 group"' >Explore More</Button> */}
-                        <Link href="/Contectus" legacyBehavior passHref>
-                            <span className="cursor-pointer px-5 py-3 text-lg tracking-wider text-white bg-blue-500 rounded-lg md:px-8 hover:bg-blue-600 group"><span>Explore More</span> </span>
+                        {/* <Button variant={"outline"} className='px-5 py-3 text-lg tracking-wider text-white bg-blue-500 rounded-lg md:px-8 hover:bg-blue-600 group"' > More</Button> */}
+                        <Link href="/Contactus" legacyBehavior passHref>
+                            <span className="cursor-pointer px-5 py-3 text-lg tracking-wider text-white bg-[#2323CE] rounded-lg md:px-8 hover:bg-blue-600 group"><span>Explore More</span> </span>
                         </Link>
                     </div>
+                    {/* text-md rounded text-white bg-[#2323CE] */}
                 </div>
 
                 <div className="pb-10 overflow-hidden md:p-10 lg:p-0 sm:pb-0" data-aos="fade-left" data-aos-duration="800">
