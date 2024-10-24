@@ -50,6 +50,7 @@ const ProductGrid = ({ products }: any) => {
                                         className="bg-blue-500 text-white px-6 py-2 rounded-sm transition-all duration-300 transform hover:scale-105 hover:bg-blue-500 hover:text-white "
                                         variant="outline"
                                         disabled={product.isComingSoon}
+                                        onClick={() => handleClick(product.id)}
                                     >
                                         View More
                                     </Button>
