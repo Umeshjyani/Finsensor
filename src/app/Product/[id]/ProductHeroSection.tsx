@@ -74,7 +74,7 @@ const ProductHeroSection = () => {
                                         <h1 className="mx-auto font-semibold text-lg text-white">2</h1>
                                     </div>
                                     <div className="order-1 bg-gray-200 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                                        <h3 className="mb-3 font-bold text-gray-800 text-xl text-[14px] md:text-xl">Customizable Reporting Templates</h3>
+                                        <h3 className="mb-3 font-bold text-gray-800 text-[14px] md:text-xl">Customizable Reporting Templates</h3>
                                         <p className="text-gray-700 leading-tight text-[14px] md:text-base">Create and adjust financial reports to meet statutory requirements and audit standards with fully customizable templates.</p>
                                     </div>
                                 </div>
@@ -84,7 +84,7 @@ const ProductHeroSection = () => {
                                         <h1 className="mx-auto font-semibold text-lg text-white">3</h1>
                                     </div>
                                     <div className="order-1 bg-gray-200 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                                        <h3 className="mb-3 font-bold text-gray-800 text-xl text-[14px] md:text-xl">Segment-Wise Reporting</h3>
+                                        <h3 className="mb-3 font-bold text-gray-800 text-[14px] md:text-xl">Segment-Wise Reporting</h3>
                                         <p className="text-gray-700 leading-tight text-[14px] md:text-base">Generate detailed, segment-wise financial reports with a single click for easy financial analysis across multiple divisions.</p>
                                     </div>
                                 </div>
@@ -94,7 +94,7 @@ const ProductHeroSection = () => {
                                         <h1 className="mx-auto font-semibold text-lg text-white">4</h1>
                                     </div>
                                     <div className="order-1 bg-gray-200 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                                        <h3 className="mb-3 font-bold text-gray-800 text-xl text-[14px] md:text-xl">Centralized Data Management</h3>
+                                        <h3 className="mb-3 font-bold text-gray-800 text-[14px] md:text-xl">Centralized Data Management</h3>
                                         <p className="text-gray-700 leading-tight text-[14px] md:text-base">Access and manage all financial data from one central location, ensuring data integrity and preventing unauthorized changes.</p>
                                     </div>
                                 </div>
@@ -104,7 +104,7 @@ const ProductHeroSection = () => {
                                         <h1 className="mx-auto font-semibold text-lg text-white text-[14px] md:text-xl">5</h1>
                                     </div>
                                     <div className="order-1 bg-gray-200 rounded-lg shadow-xl w-5/12 px-6 py-4">
-                                        <h3 className="mb-3 font-bold text-gray-800 text-xl text-[14px] md:text-xl">Cloud-Based Data Security</h3>
+                                        <h3 className="mb-3 font-bold text-gray-800 text-[14px] md:text-xl">Cloud-Based Data Security</h3>
                                         <p className="text-gray-700 leading-tight text-[14px] md:text-base">Powered by AWS, offering robust security features to safeguard sensitive financial information from unauthorized access.</p>
                                     </div>
                                 </div>
