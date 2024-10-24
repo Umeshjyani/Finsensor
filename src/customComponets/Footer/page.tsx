@@ -31,8 +31,8 @@ const Footer = () => {
                     <ul>
                         <p className="text-gray-800 font-bold text-2xl pb-4">Products</p>
                         <li className='text-gray-600 pb-2 font-semibold hover:text-blue-600 cursor-pointer'><Link href={"/Product/FinSoEasy360"}>FinSoEasy360</Link></li>
-                        <li className='text-gray-600 pb-2 font-semibold hover:text-blue-600 cursor-pointer'>Vendor Reconciliation Tool</li>
-                        <li className='text-gray-600 pb-2 font-semibold hover:text-blue-600 cursor-pointer'>Fixed Asset Management Tool</li>
+                        <li className='text-gray-600 pb-2 font-semibold hover:text-blue-600 cursor-pointer'>FamSoEasy360</li>
+                        <li className='text-gray-600 pb-2 font-semibold hover:text-blue-600 cursor-pointer'>ReconSoEasy360</li>
                         {/* <li className='text-gray-600 pb-2 font-semibold hover:text-blue-600 cursor-pointer'>Strike Off Companies</li> */}
                         {/* <li className='text-gray-600 pb-2 font-semibold hover:text-blue-600 cursor-pointer'>Asset management</li> */}
                     </ul>

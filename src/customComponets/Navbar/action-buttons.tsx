@@ -25,11 +25,10 @@ const ActionButtons = () => {
                                 <div className='flex flex-col space-y-4 items-start w-full text-lg text-black mt-10'>
                                     <Link href={"/"}>Home</Link>
                                     <Link href={"/"}>Products</Link>
-                                    <Link href={"/"}>About us</Link>
-                                    <Link href={"/"}>Contact us</Link>
+                                    <Link href={"/Aboutus"}>About us</Link>
+                                    <Link href={"/Contactus"}>Contact us</Link>
                                 </div>
                             </SheetDescription>
-
                         </SheetHeader>
                     </SheetContent>
                 </Sheet>
