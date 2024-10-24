@@ -18,21 +18,18 @@ import {
 const components: { title: string; description: string, href: string }[] = [
     {
         title: "FinSoEasy360",
-        description:
-            "Identify and resolve discrepancies with detailed reasons for mismatches, ensuring your financial records reflect the true financial position",
+        description: 'A powerful tool for seamless financial reconciliation and reporting. Automate variance detection, resolve discrepancies, and generate Schedule III-compliant statements with real-time insights and user-friendly dashboards.',
         href: "FinSoEasy360",
     },
     {
-        title: "Fixed Asset Management Tool",
-        description:
-            "Effortlessly manage physical asset verification, ensuring your Fixed Assets Schedule complies with Schedule 3 of the Indian Companies Act 2013",
-        href: "2",
+        title: "FamSoEasy360",
+        description: 'Effortlessly manage and verify physical assets, ensuring compliance with Schedule III of the Indian Companies Act 2013. Streamline your Fixed Assets Schedule with accurate tracking and reporting, ensuring alignment with regulatory requirements.',
+        href: "FamSoEasy360",
     },
     {
-        title: "Vendor Reconciliation Tool",
-        description:
-            "Identify and resolve discrepancies with detailed reasons for mismatches, ensuring your financial records reflect the true financial position",
-        href: "1",
+        title: "ReconSoEasy360",
+        description: 'Identify and resolve discrepancies with detailed reasons for mismatches, ensuring your financial records reflect the true financial position Stay on top of your financial reconciliation with instant, automated reports',
+        href: "ReconSoEasy360",
     },
     // {
     //     title: "Lease Accounting Solution",
@@ -79,7 +76,7 @@ export function NavigationBar() {
                 <NavigationMenuItem>
                     <Link href="/" legacyBehavior passHref>
                         <NavigationMenuLink className={cn(navigationMenuTriggerStyle(), "")}>
-                                Home
+                            Home
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
