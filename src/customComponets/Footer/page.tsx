@@ -44,7 +44,7 @@ const Footer = () => {
                         </p>
                         <li className='text-gray-600 pb-2 font-semibold hover:text-blue-600 cursor-pointer'><Link href={"/"}>Home</Link></li>
                         <li className='text-gray-600 pb-2 font-semibold hover:text-blue-600 cursor-pointer'><Link href={"/Aboutus"}>About</Link></li>
-                        <li className='text-gray-600 pb-2 font-semibold hover:text-blue-600 cursor-pointer'><Link href={"/Contactus"}>Contect us</Link></li>
+                        <li className='text-gray-600 pb-2 font-semibold hover:text-blue-600 cursor-pointer'><Link href={"/Contactus"}>Contact us</Link></li>
                         <li className='text-gray-600 pb-2 font-semibold hover:text-blue-600 cursor-pointer'>Products</li>
                     </ul>
                 </div>
